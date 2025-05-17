@@ -1,4 +1,4 @@
-Student Mangement System 
+# Student Mangement System
 
 This project is a rudimentary Student Management System designed to handle essential student-related information. It provides a set of core functions that allow users to interact with a database (or potentially a simple data structure) through a Graphical User Interface (GUI).
 
