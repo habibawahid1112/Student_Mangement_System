@@ -13,3 +13,4 @@ Modify student records: This allows for updating existing student information, e
 Generate mark sheets: This suggests the system can produce reports or summaries of a student's academic performance, likely including grades or scores for different subjects.
 
 Delete student records: This function provides the ability to remove student information from the system.
+                                         
