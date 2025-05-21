@@ -31,17 +31,17 @@ The main goals were to:
 ### ⚙️ System Components
 
 ## ✅ Main Classes & Their Roles:
-- Student – Stores ID, name, course, marks; generates mark sheets.
+1. Student – Stores ID, name, course, marks; generates mark sheets.
 
-- MarkSheet – Formats and calculates total/average/grade.
+2. MarkSheet – Formats and calculates total/average/grade.
 
-- SearchEngine – Finds students by ID or name.
+3. SearchEngine – Finds students by ID or name.
 
-- DatabaseHandler – Reads/writes data to students.dat using Java I/O.
+4. DatabaseHandler – Reads/writes data to students.dat using Java I/O.
 
-- StudentManagementSystem – Console version with a text menu.
+5. StudentManagementSystem – Console version with a text menu.
 
-- StudentGUI – Swing-based GUI version with buttons and forms.
+6. StudentGUI – Swing-based GUI version with buttons and forms.
 
 ## ✅ GUI Features:
 Add, Modify, Delete, Search, View All, Generate Mark Sheet.
@@ -63,48 +63,48 @@ Student data stored in students.dat using ObjectOutputStream.
 
 ## 🧩 Main Logic Flow:
 
-User selects an action (Add, Search, etc.).
+- User selects an action (Add, Search, etc.).
 
-System prompts for input using GUI.
+- System prompts for input using GUI.
 
-Relevant class methods execute logic and update storage.
+- Relevant class methods execute logic and update storage.
 
 ## 📚 Libraries:
 
-javax.swing – GUI
+- javax.swing – GUI
 
-java.sql – Mentioned, but not actually used (no SQL database)
+- java.sql – Mentioned, but not actually used (no SQL database)
 
-java.util – Data structures like ArrayList, HashMap
+- java.util – Data structures like ArrayList, HashMap
 
-java.util.stream – Filtering/searching
+- java.util.stream – Filtering/searching
 
-java.awt – Basic GUI
+- java.awt – Basic GUI
 
-java.io – File input/output for storing student data
+- java.io – File input/output for storing student data
 
 ## 🧪 Sample Outputs
 The report includes GUI screenshots for each operation:
 
-Add – Adds student to list and file.
+- Add – Adds student to list and file.
 
-Modify – Updates marks or info.
+- Modify – Updates marks or info.
 
-Delete – Removes student by ID.
+- Delete – Removes student by ID.
 
-View All – Lists all students in output area.
+- View All – Lists all students in output area.
 
-Search – Finds student and shows info.
+- Search – Finds student and shows info.
 
-Generate MarkSheet – Shows formatted report.
+- Generate MarkSheet – Shows formatted report.
 
 ## ✅ Conclusion
 This report documents a well-structured student information system developed with Java Swing and object serialization. It's an educational project showing understanding of:
 
-Java OOP principles
+- Java OOP principles
 
-GUI design
+- GUI design
 
-Data persistence
+- Data persistence
 
-Modular coding practices
+- Modular coding practices
