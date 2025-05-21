@@ -1,13 +1,5 @@
 package studentmanagementsystem;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-/**
- *
- * @author User
- */
 import com.formdev.flatlaf.FlatLightLaf;
 import java.awt.*;
 import java.awt.event.*;
@@ -16,8 +8,6 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.border.*;
 
-
-// ---------- RoundedBorder.java ----------
 // Custom Rounded Border class
 class RoundedBorder implements Border {
     private int radius;
