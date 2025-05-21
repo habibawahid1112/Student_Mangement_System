@@ -29,8 +29,8 @@ public class StudentManagementSystem {
             System.out.println("0. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
-
+            sc.nextLine();
+            
             switch (choice) {
                 case 1 -> addStudent(sc);
                 case 2 -> searchStudent(sc);
@@ -58,14 +58,14 @@ public class StudentManagementSystem {
 
         System.out.print("Enter number of subjects: ");
         int subjectCount = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
 
         for (int i = 0; i < subjectCount; i++) {
             System.out.print("Enter subject name: ");
             String subject = sc.nextLine();
             System.out.print("Enter marks: ");
             int marks = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
             student.addMarks(subject, marks);
         }
 
@@ -103,7 +103,7 @@ public class StudentManagementSystem {
                 s.getMarks().clear();
                 System.out.print("Enter number of subjects: ");
                 int n = sc.nextInt();
-                sc.nextLine(); // consume newline
+                sc.nextLine(); 
                 for (int i = 0; i < n; i++) {
                     System.out.print("Enter subject name: ");
                     String subj = sc.nextLine();
