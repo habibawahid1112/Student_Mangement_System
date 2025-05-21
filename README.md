@@ -1,6 +1,6 @@
 # Student Mangement System
 
-The Student Management System is a Java-based desktop application designed to manage student records efficiently. It allows users to add, view, modify, delete, and search student data, as well as generate mark sheets. The application features a Graphical User Interface (GUI) built using Java Swing, making it user-friendly and accessible to non-programmers.
+The Student Management System is a Java-based desktop application designed to manage student records efficiently. It allows users to add, view, modify, delete, and search student data, as well as generate mark sheets. The application features a Graphical User Interface (GUI) built using Java Swing, making it user-friendly.
 
 ### 🔍 Project Purpose
 The system is a Java-based desktop application used to:
