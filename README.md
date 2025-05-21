@@ -82,3 +82,29 @@ java.util.stream – Filtering/searching
 java.awt – Basic GUI
 
 java.io – File input/output for storing student data
+
+## 🧪 Sample Outputs
+The report includes GUI screenshots for each operation:
+
+Add – Adds student to list and file.
+
+Modify – Updates marks or info.
+
+Delete – Removes student by ID.
+
+View All – Lists all students in output area.
+
+Search – Finds student and shows info.
+
+Generate MarkSheet – Shows formatted report.
+
+## ✅ Conclusion
+This report documents a well-structured student information system developed with Java Swing and object serialization. It's an educational project showing understanding of:
+
+Java OOP principles
+
+GUI design
+
+Data persistence
+
+Modular coding practices
